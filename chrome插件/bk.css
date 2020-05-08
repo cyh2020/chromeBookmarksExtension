@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color:rgba(95, 18, 168, 0.678);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 2px 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    justify-content: flex-start;
+}
+
+.level0 {
+    background-color: rgba(184, 109, 255, 0.678);
+}
+
+.level1 {
+    background-color: rgba(109, 109, 255, 0.829);
+    margin-left: 15px;
+}
+
+.level2 {
+    background-color: rgba(109, 143, 255, 0.842);
+    margin-left: 30px;
+}
+
+.level3 {
+    background-color: rgba(109, 233, 255, 0.904);
+    margin-left: 45px;
+}
+
+.level4 {
+    background-color: rgba(109, 255, 175, 0.904);
+    margin-left: 60px;
+}
+
+.level5 {
+    background-color: rgba(121, 255, 109, 0.904);
+    margin-left: 75px;
+}
+
+.level6 {
+    background-color: rgba(216, 255, 109, 0.904);
+    margin-left: 90px;
+}
+
+.leaf {
+    background-color: orange;
+}
+
+.select {
+    background-color: red;
+}
+
+#navigator{
+    position: fixed;
+    right: 20px;
+    height: 98vh;
+    overflow-y: scroll;
+}
+
+#app{
+    height: 98vh;
+    overflow-y: scroll;
+}
+
+#container{
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px; /*对垂直流动条有效*/
+    height: 10px; /*对水平流动条有效*/
+    }
